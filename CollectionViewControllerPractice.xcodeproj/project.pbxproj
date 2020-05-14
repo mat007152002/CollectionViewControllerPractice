@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		DD079304246BD3E900F95FCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD079303246BD3E900F95FCB /* AppDelegate.swift */; };
 		DD079306246BD3E900F95FCB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD079305246BD3E900F95FCB /* SceneDelegate.swift */; };
-		DD079308246BD3E900F95FCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD079307246BD3E900F95FCB /* ViewController.swift */; };
 		DD07930B246BD3E900F95FCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD079309246BD3E900F95FCB /* Main.storyboard */; };
 		DD07930D246BD3EA00F95FCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD07930C246BD3EA00F95FCB /* Assets.xcassets */; };
 		DD079310246BD3EA00F95FCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD07930E246BD3EA00F95FCB /* LaunchScreen.storyboard */; };
+		DDA76F03246CC2A400A0CCED /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA76F02246CC2A400A0CCED /* MyCollectionViewController.swift */; };
+		DDA76F06246CC65800A0CCED /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA76F04246CC65800A0CCED /* MyCollectionViewCell.swift */; };
+		DDA76F07246CC65800A0CCED /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDA76F05246CC65800A0CCED /* MyCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DD079300246BD3E900F95FCB /* CollectionViewControllerPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewControllerPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD079303246BD3E900F95FCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD079305246BD3E900F95FCB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DD079307246BD3E900F95FCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DD07930A246BD3E900F95FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD07930C246BD3EA00F95FCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD07930F246BD3EA00F95FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD079311246BD3EA00F95FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDA76F02246CC2A400A0CCED /* MyCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
+		DDA76F04246CC65800A0CCED /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		DDA76F05246CC65800A0CCED /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +62,12 @@
 			children = (
 				DD079303246BD3E900F95FCB /* AppDelegate.swift */,
 				DD079305246BD3E900F95FCB /* SceneDelegate.swift */,
-				DD079307246BD3E900F95FCB /* ViewController.swift */,
 				DD079309246BD3E900F95FCB /* Main.storyboard */,
-				DD07930C246BD3EA00F95FCB /* Assets.xcassets */,
+				DDA76F02246CC2A400A0CCED /* MyCollectionViewController.swift */,
+				DDA76F04246CC65800A0CCED /* MyCollectionViewCell.swift */,
+				DDA76F05246CC65800A0CCED /* MyCollectionViewCell.xib */,
 				DD07930E246BD3EA00F95FCB /* LaunchScreen.storyboard */,
+				DD07930C246BD3EA00F95FCB /* Assets.xcassets */,
 				DD079311246BD3EA00F95FCB /* Info.plist */,
 			);
 			path = CollectionViewControllerPractice;
@@ -127,6 +133,7 @@
 			files = (
 				DD079310246BD3EA00F95FCB /* LaunchScreen.storyboard in Resources */,
 				DD07930D246BD3EA00F95FCB /* Assets.xcassets in Resources */,
+				DDA76F07246CC65800A0CCED /* MyCollectionViewCell.xib in Resources */,
 				DD07930B246BD3E900F95FCB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD079308246BD3E900F95FCB /* ViewController.swift in Sources */,
 				DD079304246BD3E900F95FCB /* AppDelegate.swift in Sources */,
 				DD079306246BD3E900F95FCB /* SceneDelegate.swift in Sources */,
+				DDA76F06246CC65800A0CCED /* MyCollectionViewCell.swift in Sources */,
+				DDA76F03246CC2A400A0CCED /* MyCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
